@@ -1,2 +1,2 @@
-# psu_geog289
- GEOG489 Files
+# Lesson 1 Part 2 Submission Documents
+This repository exists to store the profiling results from the Spyder IDE for the multiprocessing clipping script used in Geog489. The script (not pushed to this Git repo) takes two user inputs, 1) a feature class used for clipping, and 2) a feature class used to be clipped by those in #1. A third parameter exists to define the output workspace of files created from the geoprocessing tool.
