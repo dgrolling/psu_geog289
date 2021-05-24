@@ -1,2 +1,4 @@
 # Lesson 1 Part 2 Submission Documents
 This repository exists to store the profiling results from the Spyder IDE for the multiprocessing clipping script used in Geog489. The script (not pushed to this Git repo) takes two user inputs, 1) a feature class used for clipping, and 2) a feature class used to be clipped by those in #1. A third parameter exists to define the output workspace of files created from the geoprocessing tool.
+
+Overall, the script employs multiprocessing to divide up work tasks that can be processed in pararell by the CPU's multiple processors. This enables lengthy runtimes to be shortened. The profiling results in this repository were created in Spyder and shows that the function _mp_handler()_ took the most in local runtime with 117ms and was only called once when the script was executed.
